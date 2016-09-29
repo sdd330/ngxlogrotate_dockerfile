@@ -7,7 +7,7 @@ Usage
 
 To start an instance:
 
-	docker run -d --name nginx-with-logrotate -v <your-web-dir>:/www -p 443:443 sdd330/ngxlogrotate
+	docker run -d --name nginx-with-logrotate sdd330/ngxlogrotate
 
 To login to bash:
 
